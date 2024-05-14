@@ -1,0 +1,86 @@
+/* BoxWithImage.css */
+:root{
+    --background: #2b2a33;
+    --maintext: black;
+    --accent1: #45a3ff;
+    --cardBG: white;
+    --cardshadow: #111;
+    --cardtext: black;
+    --socialbrightness: 100%;
+}
+
+.cards{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    /*    justify-content: space-evenly;    */
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.card-shadow{
+    width: 310px;
+    height: 310px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 20px var(--cardshadow);
+    border-radius: 15px;
+}
+
+.card{
+    width: 310px;
+    height: 310px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px !important; /* auto edw to gamidi*/
+    position: relative;
+    color: black;
+    transition: .3s;
+    display: flex;
+    background-color: var(--cardBG);
+}
+
+.card-image-container{
+    /*    filter: brightness(70%);*/
+    width: 310px;
+    height: 310px;
+    color: black;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.card:hover{
+    filter: brightness(100%);
+}
+
+.card-image{
+    width: 280px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*    width: 250px;*/
+    /*    border: 2px solid black;*/
+}
+
+.card-title{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 310px;
+    font-size: 23px;
+    color: var(--maintext);
+}
+
+.card-subtext{
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    width: 240px;
+}

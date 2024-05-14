@@ -1,0 +1,19 @@
+.footer-logo {
+    width: auto;
+    height: 35px;
+    filter: grayscale(100%) brightness(25%);
+}
+
+.footer-logo:hover {
+    /*transform: scale(110%, 110%);*/
+}
+
+@media (min-width: 768px) {
+    .footer-logo {
+        height: 50px;
+    }
+}
+
+.d-flex a {
+    margin-right: 10px;  /* Adjust the value as needed */
+}
