@@ -13,7 +13,7 @@ function Home () {
                     <div className="d-flex flex-column justify-content-center m-3">
                         <h1 className="fw-bold">Bradley W Hobbs</h1>
                         <span> I am a recent graduate with a PhD in Mechanical Engineering from University of Delaware.
-                            I am seeking a role as a Senior Mechanical Engineer in R&D with industries of medical devices, humanoids, and automotive. </span>
+                            I am seeking a role as a Senior Mechanical Engineer in R&D in the industries of medical devices, humanoids, and automotive. </span>
                         <br/>
                         <span> Currently, I am working as a Postdoctoral Researcher at the Human-Oriented Robotics and Control Lab
                             <a href="https://sites.udel.edu/horclab/" target="_blank" rel="noopener noreferrer"
