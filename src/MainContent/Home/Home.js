@@ -12,23 +12,21 @@ function Home () {
                     {/* Details */}
                     <div className="d-flex flex-column justify-content-center m-3">
                         <h1 className="fw-bold">Bradley W Hobbs</h1>
-                        <span> I am a fifth year Ph.D. Candidate in Mechanical Engineering at the University of Delaware.
-                            My expected graduation date is in July of 2024 and I am excited to explore job opportunities in industry or research centers. </span>
+                        <span> I am a recent graduate with a PhD in Mechanical Engineering from University of Delaware.
+                            I am seeking a role as a Senior Mechanical Engineer in R&D with industries of medical devices, humanoids, and automotive. </span>
                         <br/>
-                        <span> Currently, I am working as a research associate at the Human-Oriented Robotics and Control Lab
+                        <span> Currently, I am working as a Postdoctoral Researcher at the Human-Oriented Robotics and Control Lab
                             <a href="https://sites.udel.edu/horclab/" target="_blank" rel="noopener noreferrer"
                                style={{marginRight: '0px'}}> (HORC Lab)</a>
-                            , where my main research focuses on the effects of <strong>ground stiffness changes and visual feedback </strong>on ground reaction forces during human gait, with applications to robot-assisted lower-limb stroke rehabilitation.
-                        </span>
-                        <br/>
-                        <span> This website is under construction as of May 14, 2024. Feel free to check out any of the links below, while more content is being added.
+                            , where I am continuing my PhD work, which focused on developing a visual feedback approach to training gait kinetics with robotic systems over compliant terrain, with applications for lower-limb stroke rehabilitation.
                         </span>
                         <div className="row">
                             <div className="col-md mt-5">
-                                <h3 className="fw-bold">Research Interests</h3>
+                                <h3 className="fw-bold">Interests</h3>
                                 <ul className="ul-interests mb-0">
-                                    <li>Medical Robotics</li>
+                                    <li>Medical Devices</li>
                                     <li>Mechanism Design</li>
+                                    <li>Drivetrain Design</li>
                                     <li>Gait Biomechanics</li>
                                     <li>Visual Feedback</li>
                                     <li>Legged Locomotion</li>
@@ -42,7 +40,7 @@ function Home () {
                                         <i className="fa-li fas fa-graduation-cap"></i>
                                         <div className="description">
                                             <p className="course" style={{fontWeight: 500, marginBottom: '0px'}}>
-                                                Ph.D., Mechanical Engineering, 2024 (expected)
+                                                Ph.D., Mechanical Engineering, Dec 2024
                                             </p>
                                             <p className="institution" style={{fontWeight: 300, marginBottom: '2px'}}>
                                                 University of Delaware
@@ -53,7 +51,7 @@ function Home () {
                                         <i className="fa-li fas fa-graduation-cap"></i>
                                         <div className="description">
                                             <p className="course" style={{fontWeight: 500, marginBottom: '0px'}}>
-                                                B.S., Mechatronics Engineering, 2018
+                                                B.S., Mechatronics Engineering, May 2018
                                             </p>
                                             <p className="institution" style={{fontWeight: 300, marginBottom: '2px'}}>
                                                 Middle Tennessee State University
