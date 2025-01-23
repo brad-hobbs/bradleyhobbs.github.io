@@ -11,14 +11,16 @@ function Home () {
                     <img src={WillieImage} alt="Willie img" className="main-image m-3"></img>
                     {/* Details */}
                     <div className="d-flex flex-column justify-content-center m-3">
-                        <h1 className="fw-bold">Bradley W Hobbs</h1>
-                        <span> I am a recent graduate with a PhD in Mechanical Engineering from University of Delaware.
-                            I am seeking a role as a Senior Mechanical Engineer in R&D in the industries of medical devices, humanoids, and automotive. </span>
+                        <h1 className="fw-bold">Bradley Hobbs, PhD</h1>
+                        <span> Hi! My name is Brad and I am a recent graduate in Mechanical Engineering from University of Delaware, seeking a role as a Senior Mechanical Engineer in R&D within the medical devices, humanoids, and automotive industries. </span>
                         <br/>
-                        <span> Currently, I am working as a Postdoctoral Researcher at the Human-Oriented Robotics and Control Lab
+                        <span> This website serves as a visual portfolio to supplement my CV and resume, and to highlight my 10+ years of contributions both professionally and personally. Please use the buttons above to look around, and use the links below to connect with me. 
+                        </span>
+                        <br/>
+                        <span> Currently I am working as a Postdoctoral Researcher in the Human-Oriented Robotics and Control Lab
                             <a href="https://sites.udel.edu/horclab/" target="_blank" rel="noopener noreferrer"
                                style={{marginRight: '0px'}}> (HORC Lab)</a>
-                            , where I am continuing my PhD work, which focused on developing a visual feedback approach to training gait kinetics with robotic systems over compliant terrain, with applications for lower-limb stroke rehabilitation.
+                            , where I am continuing my PhD work, which focused on developing a visual feedback approach to training gait kinetics with robotic systems over compliant terrain, for experimental lower-limb stroke therapy.
                         </span>
                         <div className="row">
                             <div className="col-md mt-5">
