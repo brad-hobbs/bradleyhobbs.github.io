@@ -10,6 +10,7 @@
 
 # production
 /build
+adding_section.txt
 
 # misc
 .DS_Store
