@@ -7,7 +7,7 @@ function TransFunction() {
                 <h2 className="fw-bold mY-3">Transmission Rebuilding</h2>
 
                 <span className="text-body my-3">
-                    I enjoy rebuilding transmissions in my spare time.
+                    I enjoy rebuilding transmissions in my spare time, with my most current project being for my 2008 Subaru WRX.
 
                </span>
 
